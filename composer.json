@@ -1,0 +1,29 @@
+{
+    "name": "hocongtru95/mypackage",
+    "description": "This is my first Package to publish",
+    "keywords": ["myPackage", "hocongtru", "package"],
+    "license": "ZPL-2.0",
+    "authors": [
+        {
+            "name": "Cong Tru",
+            "email": "hocongtru95@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "hocongtru95\\mypackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "hocongtru95\\mypackage": "tests/"
+        }
+    }
+}
